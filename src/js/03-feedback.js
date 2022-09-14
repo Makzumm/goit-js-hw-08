@@ -35,6 +35,9 @@ function saveValues() {
     if (savedFormValues) {
         emailEl.value = savedFormValues.email;
         messageEl.value = savedFormValues.message;
+
+        formData.email = savedFormValues.email;
+        formData.message = savedFormValues.message;
     }
 }
 
